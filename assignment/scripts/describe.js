@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// we assign the value Dane to a variable called name, we then check if name equals Mary
+// it does not, so we execute the command in the else statement and console.log "How do you do?"
 // 
 //
 
@@ -45,7 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// we create a variable called secret, we create a variable called code with the value 123
+// we check if code===123, it does, so we assign the value super to the variable secret, we then
+// reassign code to be what it was(123) *2 so now it stores the value 246. we then check if code is
+// >250, it is not so we don't execute the if, we console.log secret, which has the value "super"
 // 
 // 
 //
@@ -70,9 +73,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//we create 3 variables isStudent set to true, age set to 34, and zip set to 55407
+//the if statement isn't true because zip is not >80000, the first else if isn't true because age is
+//not < 30, the 2nd else if is true because isStudent does ===true so we console.log "Welcome to Prime!"
+//
 //
 
 //CODE
@@ -129,6 +133,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
+//we are only setting colorOne to purple, there should be two lines of code in the if statement
+//we need a 2nd line colorTwo='purple';
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -152,6 +159,9 @@ if (temp > 39 || time >= 4) {
 }
 */
 
+//our if statement is checking if either of the conditions is true, we should replace || with &&
+//so that that we are checking if both are true instead of if either is true
+
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
@@ -167,3 +177,5 @@ if(minAge <= age) {
 }
 */
 
+//we should replace the <= in the if statement with a > so that we are checking if the persons age
+//is less than the min age it would console.log('no entry')
